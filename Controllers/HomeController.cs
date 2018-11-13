@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -20,7 +20,7 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Report()
         {
             ViewBag.Message = "Your contact page.";
 
